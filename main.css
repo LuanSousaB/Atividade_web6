@@ -1,0 +1,29 @@
+/* pagina */
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+/* Geral */
+header, footer, section, article, div {
+    padding: 15px;
+    margin: 10px 0;
+    border: 10px soliD #dfba56;
+    border-radius: 5px;
+}
+
+/* botão */
+button, input[type="submit"], input[type="button"] {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 2px solid rgb(124, 42, 42);
+    border-radius: 10px;
+    background-color: #dfd49a;
+    
+}
+
+/* texto */
+p, h1, h2, h3 {
+    margin: 10px 0;
+}

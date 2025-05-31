@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+/* Menu vertical fixo à esquerda */
+nav {
+    width: 200px;
+    background-color: #333;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+nav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: left;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+/* Área principal ao lado do menu */
+main {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+/* Objetos em 2+ colunas */
+.objetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 20px;
+}
